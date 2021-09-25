@@ -15,6 +15,15 @@ samp = rnorm(100)
 length(samp)
 ```
 
+```{r}
+pull(mtcars, mpg)
+# extract a variable called mpg in a data set called mtcars
+
+mean(pull(mtcars, mpg))
+#DO NOT USE mean(mtcars$mpg) !!!
+```
+
+
 # Section 2
 
 I can take the mean of the sample, too!
